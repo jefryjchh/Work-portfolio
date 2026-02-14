@@ -37,7 +37,7 @@ export default function ContactForm() {
       ref={formRef}
       onSubmit={sendEmail}
       data-aos="fade-left"
-      className="md:p-10 p-5 bg-[#131332] rounded-lg max-w-[700px]"
+      className="md:p-10 p-5 bg-[#131332] rounded-lg w-full mx-auto max-w-[700px]"
     >
       <input
         type="text"

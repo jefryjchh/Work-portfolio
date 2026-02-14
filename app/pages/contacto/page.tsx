@@ -14,11 +14,11 @@ export default function Contacto () {
             <div className="max-w-[1420px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center ">
                 
                 {/* texto */}
-                <div>
-                    <h1 className="md:text-[40px] text-center md:text-left text-2xl font-bold text-white my-10">
+                <div className="text-center lg:text-left md:mx-auto ">
+                    <h1 className="md:text-[40px] text-left text-2xl font-bold text-white my-10">
                         Para más información contácteme.
                     </h1>
-                    <p className="text-gray-300 text-center md:text-left text-base md:text-xl font-medium">
+                    <p className="text-gray-300 text-left text-base md:text-xl font-medium">
                         Será un placer ayudarle a hacer realidad sus proyectos web.
                     </p>
                     <div className="flex space-x-4 my-8">
