@@ -11,7 +11,7 @@ export default function Contacto () {
         
         <main className="py-25 lg:py-39 px-2">
 
-            <div className="max-w-[1420px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center ">
+            <div className="w-full max-w-[1420px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center ">
                 
                 {/* texto */}
                 <div className="text-center lg:text-left md:mx-auto ">
@@ -41,7 +41,6 @@ export default function Contacto () {
                 <ContactForm/>
 
             </div>
-        </main>            
-        
+        </main>                  
     );
 }
