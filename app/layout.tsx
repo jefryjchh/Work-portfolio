@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} antialiased bg-[#000000] overflow-x-hidden min-h-screen flex flex-col`} suppressHydrationWarning
       >
-        <main className="flex-1">
+        <main className="flex-1 overflow-hidden">
           <BarHeader/>
           <AOSProvider>
             {children}
